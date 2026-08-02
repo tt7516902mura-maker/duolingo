@@ -8,65 +8,53 @@ Duolingo風のデザインを参考に作成した、レスポンシブ対応の
 
 ## デモ
 
-ブラウザで `index.html` を開くだけで動作します。
+**GitHub Repository**
+
+https://github.com/tt7516902mura-maker/duolingo
 
 ---
 
 ## 使用技術
 
-- HTML5
-- Tailwind CSS (CDN)
-- Google Fonts (Noto Sans JP)
-- SVG
-- レスポンシブデザイン
+* HTML5
+* Tailwind CSS (CDN)
+* Google Fonts (Noto Sans JP)
+* SVG
+* レスポンシブデザイン
 
 ---
 
-## 主な機能
+## 特徴
 
-- レスポンシブ対応
-- 固定ナビゲーション
-- ヒーローセクション
-- 特徴紹介
-- 学習方法紹介
-- 利用者レビュー
-- CTA(Call To Action)
-- フッター
+* レスポンシブ対応
+* 固定ナビゲーションバー
+* ヒーローセクション
+* 特徴紹介セクション
+* 学習方法紹介
+* 利用者レビュー
+* CTA（Call To Action）
+* フッター
 
 ---
 
 ## ディレクトリ構成
 
-```
-project/
-│
+```text
+duolingo/
 ├── index.html
 └── README.md
 ```
 
 ---
 
-## セクション一覧
-
-- Navigation
-- Hero
-- Statistics
-- Features
-- Learning Method
-- Reviews
-- CTA
-- Footer
-
----
-
-## デザイン
+## デザインコンセプト
 
 Duolingoをイメージした
 
-- グリーンを基調とした配色
-- 大きなボタン
-- 丸みのあるカード
-- シンプルで見やすいUI
+* グリーンを基調とした配色
+* 丸みのあるカードデザイン
+* 見やすいタイポグラフィ
+* シンプルで親しみやすいUI
 
 を採用しています。
 
@@ -82,44 +70,39 @@ SVGを変更することで自由に変更できます。
 
 現在は絵文字を使用しています。
 
-例
-
 ```html
 <div class="w-12 h-12 bg-green-100 rounded-full mr-4 flex items-center justify-center text-2xl">
 👩🏻
 </div>
 ```
 
-画像に変更する場合は
+画像を使用する場合は、
 
 ```html
-<img
-    src="keiko.jpg"
-    class="w-12 h-12 rounded-full mr-4 object-cover"
->
+<img src="keiko.jpg" class="w-12 h-12 rounded-full mr-4 object-cover">
 ```
 
-のように変更してください。
+へ変更してください。
 
 ---
 
 ## 実行方法
 
-1. このリポジトリをクローン
+リポジトリをクローンします。
 
 ```bash
-git clone https://github.com/yourname/duolingo-landing-page.git
+git clone https://github.com/tt7516902mura-maker/duolingo.git
 ```
 
-2. フォルダへ移動
+フォルダへ移動します。
 
 ```bash
-cd duolingo-landing-page
+cd duolingo
 ```
 
-3. `index.html` をブラウザで開く
+その後、`index.html` をブラウザで開くだけで閲覧できます。
 
-サーバーは不要です。
+サーバーの構築は不要です。
 
 ---
 
@@ -127,21 +110,23 @@ cd duolingo-landing-page
 
 このプロジェクトは学習・ポートフォリオ用途を目的としたサンプルです。
 
-Duolingoの名称・ロゴ・デザインに関する権利はそれぞれの権利者に帰属します。
+Duolingoの名称・ロゴ・デザイン等の権利は、それぞれの権利者に帰属します。
 
-商用利用や公式サイトとしての公開は行わないでください。
+商用利用や公式サービスとしての公開は行わないでください。
 
 ---
 
 ## 作者
 
-GitHub: https://github.com/tt7516902mura-maker
+GitHub
+
+https://github.com/tt7516902mura-maker
 
 ---
 
 ## スクリーンショット
 
-完成後のスクリーンショットを `images/` フォルダに保存し、以下のように表示できます。
+スクリーンショットを `images/` フォルダへ保存し、以下のように表示できます。
 
 ```markdown
 ![Screenshot](images/screenshot.png)
